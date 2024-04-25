@@ -4,7 +4,7 @@ function randomNum(max) {
 }
 // create a random number and store it in variable correctAnswer
 const correctAnswer = randomNum(100);
-let maxGuesses = 3;
+let maxGuesses = 5;
 // Log the correct answer for our eyes
 console.log(correctAnswer);
 let continueGame = true;
